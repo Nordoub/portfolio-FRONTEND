@@ -11,12 +11,13 @@
     padding: 0 16px;
     max-width: 960px;
     flex-direction: column;
-    align-items: center;
+    align-items: left;
     font-family: Camphor,Open Sans,Segoe UI,sans-serif;
     font-weight: 200;
     font-size: 1.3em;
     line-height: 40px;
     color: #525f7f;
+
   }
 
   .terminal {
@@ -53,5 +54,9 @@
     padding: 0 1rem 1rem;
     margin: 0;
   }
+
+#naam {
+  margin-top: 30%;
+}
 
 

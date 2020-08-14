@@ -1,6 +1,7 @@
 
 .mat-toolbar {
-  background-color: #f6f9fc;
+  //background-color: #f6f9fc;
+  background-color: #1b1b32;
   display:flex;
   justify-content:space-around;
   align-items:center;
@@ -16,15 +17,19 @@
   justify-content: space-around;
 }
 
-.mat-flat-button {
-background-color: #f6f9fc;
-padding-right: 50px;
+.header-button {
+//background-color: #f6f9fc;
+background-color: #1b1b32;
+margin-right: 50px;
+
 }
-.mat-flat-button:hover{
+.header-button:hover{
     border-bottom: 4px solid #747fe0;
 }
 
 a {
   text-decoration: none;
   font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  color: white;
 }
+
