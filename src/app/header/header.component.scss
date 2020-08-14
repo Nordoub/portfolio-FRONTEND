@@ -1,7 +1,7 @@
 
 .mat-toolbar {
-  //background-color: #f6f9fc;
-  background-color: #1b1b32;
+  background-color: #f6f9fc;
+  //background-color: #1b1b32;
   display:flex;
   justify-content:space-around;
   align-items:center;
@@ -15,21 +15,28 @@
 .navbar {
   display: flex;
   justify-content: space-around;
+
 }
 
 .header-button {
 //background-color: #f6f9fc;
-background-color: #1b1b32;
-margin-right: 50px;
+//background-color: #1b1b32;
+  margin-right: 50px;
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  font-weight: 200;
+  font-size: 1.3em;
+  line-height: 40px;
+  color: #525f7f;
+
 
 }
 .header-button:hover{
-    border-bottom: 4px solid #747fe0;
+   // border-bottom: 4px solid #747fe0;
 }
 
 a {
   text-decoration: none;
   font-family: Camphor,Open Sans,Segoe UI,sans-serif;
-  color: white;
+  color: black;
 }
 
