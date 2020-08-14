@@ -1,7 +1,46 @@
 /* You can add global styles to this file, and also import other style files */
-body {
-    background-color: #f6f9fc;
+@import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
+
+
+html, body {
+  background-color: #f6f9fc;
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+  font-weight: 200;
+  font-size: 1.3em;
+  line-height: 40px;
+  color: #525f7f;
+
+
 }
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+.underline {
+    border-bottom: 4px solid #747fe0;
+    padding-bottom: 10px;
+    padding-top: 100px;
+
+}
+#terminal__prompt--cursor {
+  display: block;
+  height: 17px;
+  width: 8px;
+  margin-left: 9px;
+  animation: blink 1200ms linear infinite;
+
+}
+@keyframes blink {
+  0% {
+    background: #747fe0;;
+  }
+  49% {
+    background: #747fe0;;
+  }
+  60% {
+    background: transparent;
+  }
+  99% {
+    background: transparent;
+  }  100% {
+    background: #747fe0;;
+  }
+}
+

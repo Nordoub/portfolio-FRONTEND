@@ -1,0 +1,30 @@
+
+.mat-toolbar {
+  background-color: #f6f9fc;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding-right: 20%;
+  justify-content: flex-end;
+
+
+
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+
+.mat-flat-button {
+background-color: #f6f9fc;
+padding-right: 50px;
+}
+.mat-flat-button:hover{
+    border-bottom: 4px solid #747fe0;
+}
+
+a {
+  text-decoration: none;
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+}

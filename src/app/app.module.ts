@@ -13,6 +13,9 @@ import {MatCardModule} from '@angular/material/card';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { ExperienceComponent } from './experience/experience.component';
 import { ProjectsComponent } from './projects/projects.component';
+import { FlexLayoutModule } from "@angular/flex-layout";
+import {MatChipsModule} from '@angular/material/chips';
+import { TerminalComponent } from './terminal/terminal.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +23,8 @@ import { ProjectsComponent } from './projects/projects.component';
     HeaderComponent,
     FooterComponent,
     ExperienceComponent,
-    ProjectsComponent
+    ProjectsComponent,
+    TerminalComponent
   ],
   imports: [
     BrowserModule,
@@ -30,7 +34,9 @@ import { ProjectsComponent } from './projects/projects.component';
     MatIconModule,
     MatButtonModule,
     MatCardModule,
-    MatGridListModule
+    MatGridListModule,
+    FlexLayoutModule,
+    MatChipsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
