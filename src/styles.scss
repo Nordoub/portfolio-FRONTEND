@@ -1,6 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
 @import url('https://fonts.googleapis.com/css2?family=Karla&display=swap');
 
+* {
+  font-family: Camphor,Open Sans,Segoe UI,sans-serif;
+}
 
 html, body {
   background-color: #f6f9fc;
@@ -9,8 +12,14 @@ html, body {
   font-size: 1.3em;
   line-height: 40px;
   color: #525f7f;
+  margin:0;
+  scroll-behavior: smooth;
 
 
+}
+
+.section {
+  text-align: center;
 }
 
 .underline {
@@ -25,6 +34,7 @@ html, body {
   width: 8px;
   margin-left: 9px;
   animation: blink 1200ms linear infinite;
+
 
 }
 @keyframes blink {
@@ -43,4 +53,3 @@ html, body {
     background: #747fe0;;
   }
 }
-

@@ -8,14 +8,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 30px;
+
 
 }
 #terminal {
-  width: 100%;
+  width:70vh;
   height: 50vh;
-  min-height: 600px;
+  min-height: 400px;
   min-width: 400px;
   box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
+  z-index: 10;
 }
 #terminal__bar {
   display: flex;
@@ -85,10 +88,10 @@ body {
   color: #dddddd;
 }
 .terminal__prompt--cursor {
-  margin-top: 13px;
+  margin-top: 7px;
   height: 17px;
   width: 4px;
-  margin-left: 9px;
+  margin-left: 5px;
   animation: blink 1200ms linear infinite;
 }
 @keyframes blink {
@@ -113,3 +116,10 @@ body {
     width: 90%;
   }
 }
+
+.console-text {
+  color:white;
+  margin-left: 5px;
+}
+
+

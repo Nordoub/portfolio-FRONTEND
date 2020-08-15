@@ -15,11 +15,11 @@
     font-family: Camphor,Open Sans,Segoe UI,sans-serif;
     font-weight: 200;
     font-size: 1.3em;
-    line-height: 40px;
+
     color: #525f7f;
 
   }
-
+/*
   .terminal {
     align: left;
     position: relative;
@@ -54,9 +54,36 @@
     padding: 0 1rem 1rem;
     margin: 0;
   }
-
+*/
 #naam {
-  margin-top: 30%;
+  //margin-top: 30%;
 }
 
+@media(max-width:1000px){
+  .content {
+    text-align: center;
+  }
+}
 
+// BANNER BELOW
+
+.wrapper {
+  height: 100vh;
+
+}
+
+.parallax-img {
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: -1;
+  background-image: url('https://source.unsplash.com/random/1920x1080');
+}
+
+/* Other styling elements, that are not necessary for the example */
+
+.parallax-img {
+  background-image: url('https://source.unsplash.com/random/1920x1080');
+}

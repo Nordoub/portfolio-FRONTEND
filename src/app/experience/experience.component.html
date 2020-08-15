@@ -1,1 +1,29 @@
-<p>experience works!</p>
+<div class="content" fxLayout="row flex" fxLayoutGap="50px grid">
+  <div fxFlex="50%" fxFlex.xs="100%" fxFlex.sm="50%" *ngFor="let num of [1,2]">
+    <mat-card class="mat-elevation-z4"  >
+      <!--<mat-card-header>-->
+      <!--<mat-card-title>Mountains {{num}}</mat-card-title>-->
+      <!--</mat-card-header>-->
+      <img mat-card-image src="https://c4r7i4v6.stackpathcdn.com/wp-content/uploads/2019/02/website_mockup_home_1405px.png">
+      <mat-card-title>Mountains {{num}}</mat-card-title>
+      <mat-card-content>
+        <p>
+          The Himalayas is a mountain range in Asia. The Himalayas is a mountain range in Asia. The Himalayas is a mountain range in Asia.
+        </p>
+        <mat-chip-list aria-label="Fish selection">
+          <mat-chip>One fish</mat-chip>
+          <mat-chip>Two fish</mat-chip>
+          <mat-chip color="primary" selected>Primary fish</mat-chip>
+          <mat-chip color="accent" selected>Accent fish</mat-chip>
+          <mat-chip>One fish</mat-chip>
+          <mat-chip>Two fish</mat-chip>
+        </mat-chip-list>
+      </mat-card-content>
+
+      <mat-card-actions>
+        <button mat-button color="primary">Demo</button>
+        <button mat-button>Source code</button>
+      </mat-card-actions>
+    </mat-card>
+  </div>
+</div>

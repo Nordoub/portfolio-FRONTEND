@@ -1,0 +1,23 @@
+.content {
+  padding: 16px;
+  text-align:center;
+  padding-top: 30px;
+}
+
+.content > mat-card {
+  width:100%;
+  max-width: 200px;
+  background-color: #f6f9fc;
+}
+
+.mat-card {
+// background-color: #f5d5b0;
+
+  }
+.mat-card:hover {
+   box-shadow: -1px 10px 29px 0px rgba(0,0,0,0.8);
+}
+
+.mat-card-header {
+  justify-content:center;
+}
