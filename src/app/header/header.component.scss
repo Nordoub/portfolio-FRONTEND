@@ -47,6 +47,9 @@ a {
   color: black;
 }
 
+a:hover {
+  //border-bottom: 2px solid #747fe0;
+}
 
 *{
   margin:0;
@@ -176,7 +179,8 @@ section p {
 }
 
 .banner-area .banner-img{
-  background-image: url('https://source.unsplash.com/random/1920x1080');
+  //background-image: url('https://source.unsplash.com/random/1920x1080');
+  background-image: url('https://i.imgur.com/fEHjsPF.jpg');
   position: absolute;
   top: 0;
   left: 0;
@@ -210,7 +214,6 @@ section h1, h2, h3, a{
 .banner-area h1{
   margin-bottom: 15px;
   font-size: 45px;
-  font-family: merienda;
 }
 
 .banner-area h3{

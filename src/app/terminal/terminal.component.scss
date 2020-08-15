@@ -16,7 +16,7 @@ body {
   width:70vh;
   height: 50vh;
   min-height: 400px;
-  min-width: 400px;
+  min-width: 300px;
   box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
   z-index: 10;
 }
@@ -112,9 +112,10 @@ body {
 }
 @media (max-width: 600px) {
   #terminal {
-    max-height: 90%;
-    width: 90%;
+    max-width:200px;
+
   }
+
 }
 
 .console-text {

@@ -16,6 +16,7 @@ import { ProjectsComponent } from './projects/projects.component';
 import { FlexLayoutModule } from "@angular/flex-layout";
 import {MatChipsModule} from '@angular/material/chips';
 import { TerminalComponent } from './terminal/terminal.component';
+import {MatListModule} from '@angular/material/list';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { TerminalComponent } from './terminal/terminal.component';
     MatCardModule,
     MatGridListModule,
     FlexLayoutModule,
-    MatChipsModule
+    MatChipsModule,
+    MatListModule
   ],
   providers: [],
   bootstrap: [AppComponent]
