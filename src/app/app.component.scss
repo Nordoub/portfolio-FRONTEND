@@ -104,3 +104,22 @@ margin: 150px;
     margin-right: 10px;
 
 }
+
+@media (max-width: 600px) {
+  #terminal {
+    max-width:200px;
+
+  }
+
+}
+
+.console-text {
+  color:white;
+  margin-left: 5px;
+}
+
+@media (max-width: 300px) {
+  .bottom a {
+  font-size: 12px;
+  }
+}

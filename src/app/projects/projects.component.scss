@@ -27,7 +27,20 @@ mat-card {
 }
 
 @media (max-width: 400px) {
-
-
-
+  mat-chip {
+    display:none;
+  }
+  .card-layout{
+    width: 100%;
+    padding: 0;
+    margin: 0 ;
+  }
+  .content {
+  margin: 0 0 0 0;
+  padding: 0;
+  }
+mat-card-actions, mat-button, button {
+  margin: 0;
+  padding: 0;
+  }
 }

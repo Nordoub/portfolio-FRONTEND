@@ -15,7 +15,7 @@ body {
 #terminal {
   width:70vh;
   height: 50vh;
-  min-height: 400px;
+  min-height: 450px;
   min-width: 300px;
   box-shadow: 2px 4px 10px rgba(0,0,0,0.5);
   z-index: 10;
@@ -123,4 +123,14 @@ body {
   margin-left: 5px;
 }
 
-
+@media (max-width: 300px) {
+  #terminal {
+    //min-width: 250px;
+    //max-width: 250px;
+    //max-height: 400px;
+    display: none;
+  }
+  .content {
+    //margin: 0;
+  }
+}
